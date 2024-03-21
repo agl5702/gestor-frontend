@@ -3,7 +3,7 @@ const URL='https://tareas-crud-xco7.onrender.com'
 // const URL ="http://localhost:8000";
 
 const tasksApi = axios.create({
-  baseURL: `http://127.0.0.1:8000/passmanager/passmanager/passmanager/`,
+  baseURL: `https://gestor-contrase-as.onrender.com/passmanager/passmanager/passmanager/`,
 });
 
 export const getAllP = () => tasksApi.get("/");
